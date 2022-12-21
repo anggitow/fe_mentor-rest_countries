@@ -1,13 +1,9 @@
-import Head from "@components/Head";
-import Header from "@components/Header";
+import Filter from "@components/Filter";
 
 export default function Home() {
   return (
     <>
-      <Head />
-      <div className="flex min-h-screen flex-col justify-start bg-primary">
-        <Header />
-      </div>
+      <Filter />
     </>
   );
 }

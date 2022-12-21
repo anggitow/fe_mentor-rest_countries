@@ -8,7 +8,7 @@ const Head = () => {
     <HelmetProvider>
       <Helmet>
         <html data-theme={theme} />
-        <body className="font-nunito-sans" />
+        <body className="font-nunito-sans text-primary-content" />
         <title>Countries of The World</title>
         <meta
           name="description"
