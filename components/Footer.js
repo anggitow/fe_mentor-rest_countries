@@ -19,16 +19,25 @@ const Footer = () => {
           <p className="font-semibold">© 2022 - Coded By Anggito Wicaksono</p>
         </div>
         <div className="flex gap-2">
-          <a href="https://github.com/anggitow" target="_blank">
+          <a
+            href="https://github.com/anggitow"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="carbon:logo-github" className="w-9 h-9" />
           </a>
           <a
             href="https://www.linkedin.com/in/anggitowicaksono/"
             target="_blank"
+            rel="noreferrer"
           >
             <Icon icon="carbon:logo-linkedin" className="w-9 h-9" />
           </a>
-          <a href="https://twitter.com/anggitoow" target="_blank">
+          <a
+            href="https://twitter.com/anggitoow"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Icon icon="mdi:twitter" className="w-9 h-9" />
           </a>
         </div>
