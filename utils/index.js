@@ -11,8 +11,8 @@ const getFilterOption = () => [
   },
   {
     id: 3,
-    value: "america",
-    name: "America",
+    value: "americas",
+    name: "Americas",
   },
   {
     id: 4,

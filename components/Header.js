@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="navbar shadow-md text-primary-content bg-secondary h-20 p-0">
+    <div className="navbar shadow-md text-primary-content bg-secondary h-20 p-0 sticky top-0 z-50">
       <div className="container mx-auto px-3 xl:px-[72px] flex justify-between">
         <div className="text-xl font-extrabold">
           <Link href="/">Where in the world?</Link>

@@ -39,20 +39,17 @@ const Filter = () => {
     let filtered;
 
     if (search) {
-      // filtered = initialData.filter((country) =>
-      //   country.name.common.toLowerCase().includes(search.toLowerCase())
-      // );
-      console.log(search.toLowerCase());
+      filtered = initialData.filter((country) =>
+        country.name.common.toLowerCase().includes(search.toLowerCase())
+      );
     } else {
-      // filtered = initialData;
-      console.log("no");
+      filtered = initialData;
     }
 
-    filtered = value
-      ? initialData.filter(
-          (country) => country.region.toLowerCase() === value.toLowerCase()
-        )
-      : initialData;
+    filtered = filtered.filter((country) =>
+      value ? country.region.toLowerCase() === value.toLowerCase() : initialData
+    );
+
     setSelect(value);
     setData(filtered);
   };
